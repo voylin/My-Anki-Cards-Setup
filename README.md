@@ -1,12 +1,12 @@
 # My-Anki-Cards-Setup
 
 # Japanese Note Cards:
-#Kanji + Kana = Meaning
-# Front Template:
+## Kanji + Kana = Meaning
+### Front Template:
 {{Kanji}}
 {{#Kana}}<br>{{Kana}}{{/Kana}}
 
-# Styling:
+### Styling:
 .card {
  font-family: source han sans jp;
  font-size: 60px;
@@ -15,16 +15,16 @@
 background-color: white;
 }
 
-# BackTemplate:
+### BackTemplate:
 {{FrontSide}}
 <hr id=answer>
 {{Meaning}}
 
-# Meaning = Kanji+Kana:
-# Front Template:
+## Meaning = Kanji+Kana:
+### Front Template:
 {{Meaning}}
 
-# Back Template:
+### Back Template:
 {{FrontSide}}
 <hr id=answer>
 {{Kanji}}
@@ -34,11 +34,11 @@ background-color: white;
 
 
 # Kanji Note Cards:
-# Kanji = Meaning:
-# Front Template:
+## Kanji = Meaning:
+### Front Template:
 <div class='kanji'>{{Kanji}}</div>
 
-# Styling:
+### Styling:
 .card {
  font-family: source han sans jp;
  font-size: 50px;
@@ -50,16 +50,16 @@ background-color: white;
 font-size: 90px;
 }
 
-# Back Template:
+### Back Template:
 {{FrontSide}}
 <hr id=answer>
 {{Meaning}}
 
-# Meaning = Kanji:
-# Front Template:
+## Meaning = Kanji:
+### Front Template:
 {{Meaning}}
 
-# BackTemplate:
+### BackTemplate:
 {{FrontSide}}
 <hr id=answer>
 <div class='kanji'>{{Kanji}}</div>
