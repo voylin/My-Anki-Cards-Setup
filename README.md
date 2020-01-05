@@ -17,7 +17,7 @@ background-color: white;
 
 ### BackTemplate:
 {{FrontSide}}
-<hr id=answer>
+#<hr id=answer>
 {{Meaning}}
 
 ## Meaning = Kanji+Kana:
